@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PizzaHut</string>
+    <string name="Login_txt">Login</string>
+    <string name="Login_hint">Insira o Login</string>
+    <string name="Senha_txt">Senha</string>
+    <string name="Senha_hint">Coloque sua Senha</string>
+    <string name="Button_txt">Cadastrar</string>
+    <string name="txt_saudadcao">Ola</string>
+    <string name="txt_escolha_pizza">Escolha a(s) pizza(s)</string>
+    <string name="txt_pizza_atum">Atum</string>
+    <string name="txt_pizza_bacom">Bacon</string>
+    <string name="txt_pizza_calabresa">Calabresa</string>
+    <string name="txt_pizza_mussarela">Mussarela</string>
+    <string name="txt_tamanho_pizza">Tamanho da Pizza</string>
+    <string name="txt_pizza_pequena">Pequena</string>
+    <string name="txt_pizza_media">Média</string>
+    <string name="txt_pizza_grande">Grande</string>
+    <string name="txt_forma_pagamento">Forma de Pagamento</string>
+    <string name="txt_extra">Recheio Extra</string>
+    <string name="txt_refrigerante">Refrigerante</string>
+    <string name="txt_sobremesa">Sobremesa</string>
+    <string name="txt_calcular">Calcular</string>
+    <string name="txt_cheque">Cheque</string>
+    <string name="txt_cartao">Cartão</string>
+    <string name="txt_vr">VR</string>
+    <string name="txt_dinheiro">Dinheiro</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.felipe.jean.pizzahut.LoginActivity">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Login_txt"
+        />
+
+    <EditText
+        android:layout_below="@+id/tvLogin"
+        android:id="@+id/etLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Login_hint"
+        />
+
+    <TextView
+        android:layout_below="@+id/etLogin"
+        android:id="@+id/tvSenha"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Senha_txt"
+        />
+
+    <EditText
+        android:hint="@string/Senha_hint"
+        android:layout_below="@+id/tvSenha"
+        android:id="@+id/etSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:layout_below="@+id/etSenha"
+        android:id="@+id/btBotao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_txt"
+        android:onClick="logar"
+        />
+
+</RelativeLayout>
